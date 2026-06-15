@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <title>말씀 암송 테스트 | Bible Memory Test</title>
+    <meta name="description" content="시험 대비를 위한 암송 테스트" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* 텍스트 드래그 방지 및 모바일 터치 최적화 */
+      body {
+        -webkit-tap-highlight-color: transparent;
+        /* 암송 테스트 시 복사 붙여넣기를 방지하기 위해 드래그를 막아둡니다 */
+        user-select: none;
+        -webkit-user-select: none;
+        background-color: #f8fafc; /* Tailwind slate-50 색상 */
+      }
+
+      /* 입력창(textarea)에서는 드래그와 선택이 가능하도록 설정 */
+      textarea, input {
+        user-select: text;
+        -webkit-user-select: text;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
