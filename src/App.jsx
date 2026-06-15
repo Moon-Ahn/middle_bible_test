@@ -132,7 +132,7 @@ export default function App() {
         {/* Header */}
         <header className="mb-6 text-center">
           <h1 className="text-2xl font-bold text-indigo-700 flex items-center justify-center gap-2 mb-1">
-            <BookOpen className="w-7 h-7" /> 중등부 말씀 암송 준비
+            <BookOpen className="w-7 h-7" /> 중등부 말씀 암송 연습하기
           </h1>
           <p className="text-slate-500 text-sm"> 7월 5일 성경 암송 축제까지 화이팅! </p>
         </header>
